@@ -1650,9 +1650,9 @@ body.ie ._ibg img {
 }
 
 .section__slider2 {
-  background: -webkit-gradient(linear, right top, left top, color-stop(0, #415167), color-stop(33%, #415167), color-stop(33%, #fff), color-stop(66%, #fff));
-  background: -o-linear-gradient(right, #415167 0, #415167 33%, #fff 33%, #fff 66%);
-  background: linear-gradient(to left, #415167 0, #415167 33%, #fff 33%, #fff 66%);
+  background: -webkit-gradient(linear, right top, left top, color-stop(0, #415167), color-stop(33%, #415167), color-stop(33%, #F2F2F2), color-stop(66%, #F2F2F2));
+  background: -o-linear-gradient(right, #415167 0, #415167 33%, #F2F2F2 33%, #F2F2F2 66%);
+  background: linear-gradient(to left, #415167 0, #415167 33%, #F2F2F2 33%, #F2F2F2 66%);
   background-size: cover;
   height: 100%;
 }
@@ -2034,10 +2034,12 @@ body.ie ._ibg img {
   padding-top: 6px;
 }
 
+.swiper-wrapper.slider2 {
+  padding: 10px;
+}
+
 .swiper-slide.slider2 {
   background: white;
-  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 .swiper-slide.slider2 .combo__button {
